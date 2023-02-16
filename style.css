@@ -1,0 +1,209 @@
+/*
+*{
+    margin:0;
+    padding:0;
+}
+*/
+
+
+
+body{
+    background:color f 4f 4f 4f 4px;
+    color:rgb(196, 75, 24);
+    font: courier,monospace;
+    font-size: normal;
+    /*same as above*/
+    font:normal16px Aerial,Helvetica,sans-serif;
+
+    line-height:1.6em;
+    margin:0;
+}
+
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: rgb(31, 40, 135);
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: #000
+}
+
+
+.container{
+    width:80%;
+    margin: auto;
+
+}
+
+
+.button{
+    padding:15px 10px;
+    background-color: #333;
+    color: #fff;
+}
+.button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+
+.box-1{
+    background-color:#333;
+    color: aliceblue;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    /*same as above*/
+    border:5px red solid;
+
+    border-width: 3px;
+    border-bottom-width:10px;
+    border-top-style:dotted;
+    
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+   /* same as above*/
+    padding:20px;
+
+   
+    margin:20px 0px;
+}
+
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight: 900;
+    font-style:bold;
+    text-decoration: underline;
+    text-transform:uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding:20px;
+    margin:20px 0;
+
+}
+
+
+.categories{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+}
+.categories h2{
+    text-align: center;
+
+}
+.categories ul{
+    padding:0;
+    margin: 30px;
+    list-style:square;
+    list-style:none;
+}
+.categories li{
+ padding-bottom: 6px;
+ border-bottom: dotted 1px #333;
+ list-style-image: url('../image1.png');
+}
+
+
+.my-form{
+ padding:20px;     
+}
+.my-form .form-group{
+    padding-bottom:15px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width: 100%;
+}
+
+
+.block{
+    float:right;
+    width:33.3%;
+    border:1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float:left;
+    width:70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+#side-bar{
+    float: right;
+    width: 30%;
+    background-color: rgb(6, 8, 8);
+    color: #c5c2f4;
+    padding: 15px;
+    box-sizing:  border-box;
+}
+
+
+.p-box{
+    width:800px;
+    height:500px;
+    border: 2px solid black;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../bg.jpeg');
+   /* background-repeat: no-repeat*/;
+   background-position:  100px 200px;
+   background-position: center top;
+}
+.p-box h1{
+   position: absolute;
+   top: 100px;
+   left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+ }
+
+
+ .clr {
+    clear:both;
+ }
+
+
+ .Fix-Me{
+    position:fixed;
+    top: 400px;
+    margin: left 20px;
+ }
+
+ 
+.My-List li:first-child{
+    background-color: #a19ce3;
+}
+.My-List li:last-child{
+    background-color: #6f69ca;
+}
+.My-List li:nth-child(5){
+    background-color: #564fb9;
+}
+.My-List li:nth-child(even){
+    background-color: #dbced7;
+}
