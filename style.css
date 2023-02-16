@@ -191,10 +191,10 @@ a:visited{
  .Fix-Me{
     position:fixed;
     top: 400px;
-    margin: left 20px;
+    left: 0;
  }
 
- 
+
 .My-List li:first-child{
     background-color: #a19ce3;
 }
